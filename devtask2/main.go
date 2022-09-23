@@ -10,9 +10,9 @@ import (
 var ErrIncorrectString = errors.New("incorrect string")
 
 // pair of rune and count to repeat this rune
-// token.count - TODO
-// token.count == -1 TODO
-// token.count == -2 TODO
+// token.count - number of times to repeat symbol
+// token.count == -1 default, if token.count wasn's given(so need to repeat only 1 time)
+// token.count == -2 if token was already added to "result" string
 type token struct {
 	symbol rune
 	count  int
