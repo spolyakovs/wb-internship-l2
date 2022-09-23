@@ -50,6 +50,5 @@ func main() {
 			}
 			previousLine = line
 		}
-		// TODO: >> output.txt
 	}
 }

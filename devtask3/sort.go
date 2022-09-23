@@ -31,16 +31,13 @@ func quicksortLines(lines []string, values [][]byte) {
 	lines[leftMostIndex], lines[pivotIndex] = lines[pivotIndex], lines[leftMostIndex]
 	values[leftMostIndex], values[pivotIndex] = values[pivotIndex], values[leftMostIndex]
 
-	quicksortLines(lines[:leftMostIndex], values[:leftMostIndex])     // sort everything before
-	quicksortLines(lines[leftMostIndex+1:], values[leftMostIndex+1:]) // sort everything after
+	quicksortLines(lines[:leftMostIndex], values[:leftMostIndex])
+	quicksortLines(lines[leftMostIndex+1:], values[leftMostIndex+1:])
 }
 
 // lessValues returns if value1 < value2 (> if rFlag == true)
 func lessValues(value1 []byte, value2 []byte) bool {
 	compare := bytes.Compare(value1, value2)
-	// compare == -1 if value1 < value2
-	// compare == 0 if value1 == value2
-	// compare == 1 if value1 > value2
 
 	if rFlag {
 		compare = -compare // reverse comparing "direction"

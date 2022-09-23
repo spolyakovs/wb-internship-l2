@@ -53,7 +53,6 @@ func getValueNumber(line string) (value []byte, ok bool) {
 	}
 
 	binary.BigEndian.PutUint64(value, num)
-	// fmt.Println("getValueNumber.value:", value)
 	return value, true
 }
 

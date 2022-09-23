@@ -23,7 +23,7 @@ output files like "output_filename.txt"
 &nbsp;&nbsp;&nbsp;&nbsp; -u &nbsp;&nbsp;&nbsp;&nbsp; do not output repeat lines
 
 ### Note:
-&nbsp;&nbsp;&nbsp;&nbsp; every flag needs to be types SEPARATELY
+&nbsp;&nbsp;&nbsp;&nbsp; every flag needs to be typed SEPARATELY
 
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; OK: -k 2 -n -u
 
