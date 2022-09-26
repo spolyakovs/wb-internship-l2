@@ -11,7 +11,7 @@ var (
 	nFlag bool
 	rFlag bool
 	uFlag bool
-	// mFlag bool
+	// mCapFlag bool
 	// bFlag bool
 	// cFlag bool
 	// hFlag bool

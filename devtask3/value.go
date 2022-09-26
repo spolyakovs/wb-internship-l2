@@ -36,7 +36,7 @@ func getValueString(line string) []byte {
 			return value
 		}
 	}
-	// TODO: mFlag value
+	// TODO: mCapFlag value
 	// TODO: if bFlag trim tail whitespaces
 	return []byte(line)
 }
