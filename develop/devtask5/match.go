@@ -3,8 +3,8 @@ package main
 import (
 	"strings"
 
-	logger "github.com/spolyakovs/wb-internship-l2/devtask5/log"
-	"github.com/spolyakovs/wb-internship-l2/devtask5/pattern"
+	logger "github.com/spolyakovs/wb-internship-l2/develop/dev5/log"
+	"github.com/spolyakovs/wb-internship-l2/develop/dev5/pattern"
 )
 
 // TODO: new loggers

@@ -5,8 +5,8 @@ import (
 	"log"
 	"runtime"
 
-	myLog "github.com/spolyakovs/wb-internship-l2/devtask5/log"
-	"github.com/spolyakovs/wb-internship-l2/devtask5/pattern"
+	myLog "github.com/spolyakovs/wb-internship-l2/develop/dev5/log"
+	"github.com/spolyakovs/wb-internship-l2/develop/dev5/pattern"
 )
 
 var (
