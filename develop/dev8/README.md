@@ -10,19 +10,43 @@ Then type commands
 
 ### Commands:
 
+```
+cd <dir>
+```
+change directory to `dir`
+
+```
+pwd
+```
+print current working directory
+
+```
+echo <args...>
+```
+print `args`, separated by space
+
+```
+kill <pids...>
+```
+send kill signal to processes with PIDs=`pids`
+
+```
+ps
+```
+print all current processes
+TODO: format
+```
+fork <args>
+```
+quit from the shell
 TODO
+```
+exec <args>
+```
+quit from the shell
+TODO
+```
+\quit
+```
+quit from the shell
 
-&emsp;-f&emsp;int
-<br/>&emsp;&emsp;&emsp;select  only these fields;  also print any line that contains no delimiter character, unless the -s option is specified
-
-&emsp;-d&emsp;string
-<br/>&emsp;&emsp;&emsp;specify field delimiter (TAB by default)
-
-&emsp;\quit&emsp;quit from the shell
-
-### Note:
-&emsp;every flag needs to be typed SEPARATELY
-
-&emsp;OK: -k 2 -n -u
-
-&emsp;NOT OK: -nk 2u
