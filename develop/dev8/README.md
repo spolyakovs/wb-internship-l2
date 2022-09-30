@@ -34,19 +34,16 @@ send kill signal to processes with PIDs=`pids`
 ps
 ```
 print all current processes
-TODO: format
 ```
-fork <args>
+fork <cmd> <args...>
 ```
-quit from the shell
-TODO
+fork cmd to another child proccess
 ```
-exec <args>
+exec <cmd> <args...>
 ```
-quit from the shell
-TODO
+execute cmd in another child proccess
 ```
-\quit
+\exit
 ```
-quit from the shell
+exit from the shell
 
