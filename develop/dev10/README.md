@@ -3,7 +3,11 @@
 
 Simple telnet-client
 ## Usage:
+Client
 ```
-$ go run ./ [options...] <host> <port>
+$ go run ./telnet-client [--timeout=<timeout>] <host> <port>
 ```
-TODO: options(timeout) host port
+Server
+```
+$ go run ./telnet-server
+```
